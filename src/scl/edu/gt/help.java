@@ -14,6 +14,8 @@ public class help {
 		System.out.println("");
 		for(int i = 0;i<cantidadDeComandos;i++) {
 			System.out.print("" + datos.command[i]+ "│");
+			System.out.println(datos.information[i]);
+			System.out.println("");
 		}
 		
 	}
